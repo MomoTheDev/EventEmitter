@@ -41,7 +41,7 @@ Here's a code example:
 
 private String prefix = "[EventEmitter] ";
 
-EventEmitter.openInstance().getEvent(event).addEventHandler((parameters) -> {
+EventEmitter.openInstance().getEvent(userInput).addEventHandler((parameters) -> {
     final String input = parameters.getString("input");
     if (input.equalsIgnoreCase("exit"))
        // exit...
