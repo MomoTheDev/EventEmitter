@@ -41,7 +41,7 @@ Here's a code example:
 
 private String prefix = "[EventEmitter] ";
 
-emitter.getEvent(event).addEventHandler((parameters) -> {
+EventEmitter.openInstance().getEvent(event).addEventHandler((parameters) -> {
     final String input = parameters.getString("input");
     if (input.equalsIgnoreCase("exit"))
        // exit...
@@ -62,7 +62,7 @@ private String prefix = "[EventEmitter] ";
 
 public void handleInput(final Scanner scanner) {
     System.out.printf("%sInput > ", prefix);
-    emitter.emit("user-input", new ParameterContainer().add("input", scanner.nextLine()));
+    EventEmitter.openInstance().emit("user-input", new ParameterContainer().add("input", scanner.nextLine()));
 }
 
 ```
