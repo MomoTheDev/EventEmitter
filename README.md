@@ -82,5 +82,11 @@ The console will print the following messages:
 Thanks for following the tutorial, you can get the full example here:
 https://github.com/MomoTheSiM/EventEmitter/tree/main/src/me/mohammad/eventemitter/example
 
+# Updating
+I have enough time to manage this library by my own, you can suggest me some features you'd like or maybe report some bugs as well.
+You can give suggestions and report bugs to me via Discord (MomoTheSiM#6478).
+
 # Thanks
+You can use this library, the way you'd like.
+The only thing you're not allowed to do, is to call it yours, you could atleast give credit to Mohammad Alkhatib (MomoTheSiM) for developing it.
 Thanks for using my library, consider supporting me by leaving a star!
