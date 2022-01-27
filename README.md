@@ -44,13 +44,13 @@ private String prefix = "[EventEmitter] ";
 emitter.getEvent(event).addEventHandler((parameters) -> {
     final String input = parameters.getString("input");
     if (input.equalsIgnoreCase("exit"))
-      exit();
+       // exit...
     System.out.printf("%sUser Input Detected: %s\n\n", prefix, input);
 });
 
 ```
 The handler above, gets the "input" variable, that is being hold by a `ParameterContainer` instance, and casts it to a String named input.
-It then checks if the input is equal to "exit", if that's the case, it exits the program using a custom method called `exit()`.
+It then checks if the input is equal to "exit", if that's the case, it exits the program.
 If none of that is the case, it prints the detected user input.
 
 
